@@ -1,112 +1,73 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Portfolio
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-  <style>
-   body {
-            font-family: 'Roboto', sans-serif;
-        }
-  </style>
- </head>
- <body class="bg-gray-100 text-gray-900">
+  <title>Portfolio</title>
+  <link href="styles.css" rel="stylesheet"/>
+  <script src="scripts.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
   <header class="bg-white shadow">
-   <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-    <a class="text-xl font-bold text-gray-900" href="#">
-     My Portfolio
-    </a>
-    <nav class="space-x-4">
-     <a class="text-gray-800 hover:text-gray-600" href="#about">
-      About
-     </a>
-     <a class="text-gray-800 hover:text-gray-600" href="#projects">
-      Projects
-     </a>
-     <a class="text-gray-800 hover:text-gray-600" href="#contact">
-      Contact
-     </a>
-    </nav>
-   </div>
+    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <a class="text-xl font-bold text-gray-900" href="#">My Portfolio</a>
+      <nav class="space-x-4">
+        <a class="text-gray-800 hover:text-gray-600" href="#about">About</a>
+        <a class="text-gray-800 hover:text-gray-600" href="#projects">Projects</a>
+        <a class="text-gray-800 hover:text-gray-600" href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
+
   <main class="container mx-auto px-6 py-12">
-   <section class="mb-12" id="about">
-    <div class="flex flex-col md:flex-row items-center">
-     <img alt="Portrait of the developer" class="w-48 h-48 rounded-full mx-auto md:mx-0 md:mr-6" height="300" src="https://storage.googleapis.com/a1aa/image/3yUndCa9KK6iNpNaVPVhy29ugFIaatt9gRoKFToDfS7bHK4JA.jpg" width="300"/>
-     <div class="mt-6 md:mt-0">
-      <h1 class="text-3xl font-bold">
-       Hello, I'm [Your Name]
-      </h1>
-      <p class="mt-4 text-gray-700">
-       I am a passionate web developer with experience in creating dynamic and responsive websites using modern web technologies. I love to learn and explore new tools and frameworks to enhance my skills and deliver high-quality projects.
-      </p>
-     </div>
-    </div>
-   </section>
-   <section class="mb-12" id="projects">
-    <h2 class="text-2xl font-bold mb-6">
-     Projects
-    </h2>
-    <div class="text-center text-gray-700">
-     <p>
-      I am currently working on building my portfolio. Stay tuned for updates!
-     </p>
-    </div>
-   </section>
-   <section class="mb-12" id="contact">
-    <h2 class="text-2xl font-bold mb-6">
-     Contact
-    </h2>
-    <form class="bg-white shadow-lg rounded-lg p-6">
-     <div class="mb-4">
-      <label class="block text-gray-700" for="name">
-       Name
-      </label>
-      <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="name" type="text"/>
-     </div>
-     <div class="mb-4">
-      <label class="block text-gray-700" for="email">
-       Email
-      </label>
-      <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="email" type="email"/>
-     </div>
-     <div class="mb-4">
-      <label class="block text-gray-700" for="message">
-       Message
-      </label>
-      <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="message"></textarea>
-     </div>
-     <button class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600" type="submit">
-      Send Message
-     </button>
-    </form>
-   </section>
+    <section class="mb-12" id="about">
+      <div class="flex flex-col md:flex-row items-center">
+        <img alt="Portrait of the developer" class="w-48 h-48 rounded-full mx-auto md:mx-0 md:mr-6" height="300" src="https://storage.googleapis.com/a1aa/image/3yUndCa9KK6iNpNaVPVhy29ugFIaatt9gRoKFToDfS7bHK4JA.jpg" width="300"/>
+        <div class="mt-6 md:mt-0">
+          <h1 class="text-3xl font-bold">Hello, I'm NANDANA S NAIR</h1>
+          <p class="mt-4 text-gray-700">
+            I am a passionate web developer with experience in creating dynamic and responsive websites using modern web technologies. I love to learn and explore new tools and frameworks to enhance my skills and deliver high-quality projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12" id="projects">
+      <h2 class="text-2xl font-bold mb-6">Projects</h2>
+      <div class="text-center text-gray-700">
+        <p>I am currently working on building my portfolio. Stay tuned for updates!</p>
+      </div>
+    </section>
+
+    <section class="mb-12" id="contact">
+      <h2 class="text-2xl font-bold mb-6">Contact</h2>
+      <form class="bg-white shadow-lg rounded-lg p-6">
+        <div class="mb-4">
+          <label class="block text-gray-700" for="name">Name</label>
+          <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="name" type="text"/>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700" for="email">Email</label>
+          <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="email" type="email"/>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700" for="message">Message</label>
+          <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="message"></textarea>
+        </div>
+        <button class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600" type="submit">Send Message</button>
+      </form>
+    </section>
   </main>
+
   <footer class="bg-white shadow py-6">
-   <div class="container mx-auto px-6 text-center">
-    <p class="text-gray-700">
-     © 2023 [Your Name]. All rights reserved.
-    </p>
-    <div class="mt-4 space-x-4">
-     <a class="text-gray-700 hover:text-gray-900" href="#">
-      <i class="fab fa-twitter">
-      </i>
-     </a>
-     <a class="text-gray-700 hover:text-gray-900" href="#">
-      <i class="fab fa-linkedin">
-      </i>
-     </a>
-     <a class="text-gray-700 hover:text-gray-900" href="#">
-      <i class="fab fa-github">
-      </i>
-     </a>
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-gray-700">© 2023 [Your Name]. All rights reserved.</p>
+      <div class="mt-4 space-x-4">
+        <a class="text-gray-700 hover:text-gray-900" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="text-gray-700 hover:text-gray-900" href="#"><i class="fab fa-linkedin"></i></a>
+        <a class="text-gray-700 hover:text-gray-900" href="#"><i class="fab fa-github"></i></a>
+      </div>
     </div>
-   </div>
   </footer>
- </body>
+</body>
 </html>
